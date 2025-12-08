@@ -1,3 +1,2 @@
-def validate_hello(greetings):
-    greeting = {'hallo', 'hello', 'ciao', 'salut', 'hola', 'ahoj', 'czesc'}
-    return any(word in greetings.lower() for word in greeting)
+def sp_eng(sentence): 
+    return "english" in sentence.lower()
